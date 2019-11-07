@@ -21,6 +21,7 @@ footer {
   color: white;
   background-color: #ff6200;
   text-align: center;
+  top: 150px;
 }
 /*Marquee*/
 .marquee {
@@ -45,26 +46,6 @@ footer {
   -moz-animation: scroll-left 5s linear infinite;
   -webkit-animation: scroll-left 5s linear infinite;
   animation: scroll-left 5s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes scroll-left {
-  0%   { -moz-transform: translateX(100%); }
-  100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes scroll-left {
-  0%   { -webkit-transform: translateX(100%); }
-  100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes scroll-left {
-  0%   {}
-  -moz-transform: translateX(100%); /* Browser bug fix */
-  -webkit-transform: translateX(100%); /* Browser bug fix */
-  transform: translateX(100%); 		
-}
-  100% { 
-  -moz-transform: translateX(-100%); /* Browser bug fix */
-  -webkit-transform: translateX(-100%); /* Browser bug fix */
-  transform: translateX(-100%); 
 }
 /* a Tags */
 a:link {
@@ -127,7 +108,7 @@ li {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 11px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -156,7 +137,8 @@ li {
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: black;
+    color: orange;
   }
   
   .dropdown:hover .dropdown-content {
