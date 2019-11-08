@@ -12,13 +12,13 @@
     }
     .nav {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
     }
     .header {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 2;
         grid-row-end: 3;
     }
@@ -71,7 +71,7 @@
     }
     .nav {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
     }
@@ -119,8 +119,8 @@
 @media only screen and (min-width: 786px){
     .grid-container {
         display: grid;
-        grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 10  0px 1fr 1fr 4fr;
+        grid-template-columns: 60px 1fr 1fr 1fr 60px;
+        grid-template-rows: 60px 1fr 4fr;
     }
     .box {
         display: block;
@@ -129,60 +129,30 @@
     }
     .nav {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
     }
     .header {
         height: 100px;
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 2;
         grid-row-end: 3;
     }
     .item1 {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
         grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-end: 5;
     }
     .item1 img {
         width: 500px;
         height: 300px;
     }
-    .item2 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 5;
-    }
-    .item2 img {
-        width: 500px;
-        height: 300px;
-    }
-    .item3 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item3 img {
-        width: 500px;
-        height: 300px;
-    }
-    .item4 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item4 img {
-        width: 500px;
-        height: 300px;
-    }
     .footer {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 6;
         color: white;
