@@ -156,7 +156,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 120px 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 120px 80px 120px 1fr 1fr 1fr 1fr;
     }
     .box {
         display: block;
