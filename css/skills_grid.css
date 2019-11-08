@@ -3,7 +3,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 80px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 80px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .box {
         display: block;
@@ -46,11 +46,29 @@
         grid-row-start: 6;
         grid-row-end: 7;
     }
-    .footer {
+    .item5 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 7;
         grid-row-end: 8;
+    }
+    .item6 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    .item7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 11;
         color: white;
         background-color: #ff6200;
         text-align: center;
@@ -105,11 +123,29 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
-    .footer {
+    .item5 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .item6 {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 5;
-        grid-row-end:  6;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .item7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end:  8;
         background-color: #ff6200;
         text-align: center;
         height: 50px;
@@ -120,7 +156,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 10  0px 1fr 1fr 4fr;
+        grid-template-rows: 100px 1fr 4fr;
     }
     .box {
         display: block;
@@ -174,17 +210,47 @@
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-end: 6;
     }
     .item4 img {
+        width: 500px;
+        height: 300px;
+    }
+    .item5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .item5 img {
+        width: 500px;
+        height: 300px;
+    }
+    .item6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .item6 img {
+        width: 500px;
+        height: 300px;
+    }
+    .item7 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .item7 img {
         width: 500px;
         height: 300px;
     }
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 8;
+        grid-row-end: 9;
         color: white;
         background-color: #ff6200;
         text-align: center;
