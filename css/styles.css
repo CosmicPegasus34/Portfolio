@@ -48,6 +48,9 @@ footer {
   animation: scroll-left 5s linear infinite;
 }
 /* a Tags */
+a:hover {
+  background-color: plum;
+}
 a:link {
   color: lightblue;
 }

@@ -1,5 +1,8 @@
 /*Mobile*/
 @media only screen and (max-width: 600px){
+    background {
+        background-attachment: fixed;
+    }
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
