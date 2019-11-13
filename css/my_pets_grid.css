@@ -153,6 +153,9 @@
         width: 500px;
         height: 300px;
     }
+    .item1 p {
+        text-align: center;
+    }
     .item2 {
         grid-column-start: 3;
         grid-column-end: 4;
@@ -162,6 +165,9 @@
     .item2 img {
         width: 300px;
         height: 200px;
+    }
+    .item2 p {
+        text-align: center;
     }
     .item3 {
         grid-column-start: 2;
@@ -173,6 +179,9 @@
         width: 500px;
         height: 300px;
     }
+    .item3 p {
+        text-align: center;
+    }
     .item4 {
         grid-column-start: 3;
         grid-column-end: 4;
@@ -182,6 +191,9 @@
     .item4 img {
         width: 500px;
         height: 300px;
+    }
+    .item4 p {
+        text-align: center;
     }
     .footer {
         grid-column-start: 1;
