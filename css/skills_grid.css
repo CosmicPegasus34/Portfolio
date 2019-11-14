@@ -31,11 +31,19 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
+    .item1 img {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .item2 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .item2 img {
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .item3 {
         grid-column-start: 1;
@@ -43,11 +51,19 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
+    .item3 img {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .item4 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 6;
         grid-row-end: 7;
+    }
+    .item4 img {
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .footer {
         grid-column-start: 1;
