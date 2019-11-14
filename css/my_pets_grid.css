@@ -6,7 +6,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 80px 1fr 1fr 1fr;
+        grid-template-rows: 100px 80px 1fr;
     }
     .box {
         display: block;
