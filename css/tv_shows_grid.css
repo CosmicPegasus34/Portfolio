@@ -2,6 +2,7 @@
 @media only screen and (max-width: 600px){
     body {
         background-attachment: fixed;
+        background-size: cover;
         font-size: 16px;
     }
     .grid-container {
@@ -130,6 +131,10 @@
 }
 /*Tablet*/
 @media only screen and (min-width: 601px){
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
     .grid-container {
         display: grid;
         grid-column: 1fr 1fr 1fr 1fr;
@@ -227,6 +232,10 @@
 }
 /*Desktop*/
 @media only screen and (min-width: 786px){
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
     .grid-container {
         display: grid;
         grid-template-columns: 60px 1fr 1fr 60px;

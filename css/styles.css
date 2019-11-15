@@ -56,7 +56,7 @@ footer {
 }
 /* a Tags */
 a:hover {
-  background-color: plum;
+  text-decoration: none;
 }
 a:link {
   color: lightblue;
