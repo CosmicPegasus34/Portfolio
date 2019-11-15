@@ -137,8 +137,8 @@
     }
     .grid-container {
         display: grid;
-        grid-column: 1fr 1fr 1fr 1fr;
-        grid-row: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .box {
         display: block;
@@ -279,9 +279,11 @@
         grid-row-end: 5;
     }
     .item2 p {
+        transform: translateX(10px);
         text-align: center;
     }
     .item2 img {
+        transform: translateX(30px);
         width: 500px;
         height: 300px;
     }
@@ -305,9 +307,11 @@
         grid-row-end: 6;
     }
     .item4 p {
+        transform: translateX(10px);
         text-align: center;
     }
     .item4 img {
+        transform: translateX(30px);
         width: 500px;
         height: 300px;
     }
@@ -329,12 +333,13 @@
         grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 6;
-        transform: translateY(30px);
     }
     .item6 p {
+        transform: translateX(10px);
         text-align: center;
     }
     .item6 img {
+        transform: translate(30px, 15px);
         width: 500px;
         height: 300px;
     }
