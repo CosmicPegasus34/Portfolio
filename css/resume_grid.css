@@ -31,11 +31,17 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
+    .item1 p {
+        text-align: center;
+    }
     .item2 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .item2 p {
+        text-align: center;
     }
     .item3 {
         grid-column-start: 1;
@@ -43,11 +49,17 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
+    .item3 p {
+        text-align: center;
+    }
     .item4 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 6;
         grid-row-end: 7;
+    }
+    .item4 p {
+        text-align: center;
     }
     .item5 {
         grid-column-start: 1;
@@ -55,11 +67,17 @@
         grid-row-start: 7;
         grid-row-end: 8;
     }
+    .item5 p {
+        text-align: center;
+    }
     .item6 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 8;
         grid-row-end: 9;
+    }
+    .item6 p {
+        text-align: center;
     }
     .item7 {
         grid-column-start: 1;
@@ -67,17 +85,26 @@
         grid-row-start: 9;
         grid-row-end: 10;
     }
+    .item7 p {
+        text-align: center;
+    }
     .item8 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 10;
         grid-row-end: 11;
     }
+    .item8 p {
+        text-align: center;
+    }
     .item9 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 11;
         grid-row-end: 12;
+    }
+    .item9 p {
+        text-align: center;
     }
     .footer {
         grid-column-start: 1;
@@ -123,11 +150,17 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
+    .item1 p {
+        text-align: center;
+    }
     .item2 {
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .item2 p {
+        text-align: center;
     }
     .item3 {
         grid-column-start: 1;
@@ -135,11 +168,17 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
+    .item3 p {
+        text-align: center;
+    }
     .item4 {
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .item4 p {
+        text-align: center;
     }
     .item5 {
         grid-column-start: 1;
@@ -147,17 +186,26 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
+    .item5 p {
+        text-align: center;
+    }
     .item6 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 6;
         grid-row-end: 7;
     }
+    .item6 p {
+        text-align: center;
+    }
     .item7 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 6;
         grid-row-end: 7;
+    }
+    .item7 p {
+        text-align: center;
     }
     .footer {
         grid-column-start: 1;
