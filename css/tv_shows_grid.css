@@ -265,12 +265,13 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
-    .item1 p {
-        text-align: center;
-    }
     .item1 img {
+        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
+    }
+    .item1 p {
+        text-align: center;
     }
     .item2 {
         grid-column-start: 3;
@@ -278,14 +279,14 @@
         grid-row-start: 3;
         grid-row-end: 5;
     }
+    .item2 img {
+        transform: translate(100px, 15px);
+        width: 500px;
+        height: 300px;
+    }
     .item2 p {
         transform: translateX(10px);
         text-align: center;
-    }
-    .item2 img {
-        transform: translateX(30px);
-        width: 500px;
-        height: 300px;
     }
     .item3 {
         grid-column-start: 2;
@@ -293,12 +294,14 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
-    .item3 p {
-        text-align: center;
-    }
     .item3 img {
+        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
+    }
+    .item3 p {
+        transform: translate(10px);
+        text-align: center;
     }
     .item4 {
         grid-column-start: 3;
@@ -306,14 +309,14 @@
         grid-row-start: 4;
         grid-row-end: 6;
     }
-    .item4 p {
-        transform: translateX(10px);
-        text-align: center;
-    }
     .item4 img {
-        transform: translateX(30px);
+        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
+    }
+    .item4 p {
+        transform: translateX(5px);
+        text-align: center;
     }
     .item5 {
         grid-column-start: 2;
@@ -321,12 +324,14 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
-    .item5 p {
-        text-align: center;
-    }
     .item5 img {
+        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
+    }
+    .item5 p {
+        transform: translate(5px);
+        text-align: center;
     }
     .item6 {
         grid-column-start: 3;
@@ -334,27 +339,28 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
-    .item6 p {
-        transform: translateX(10px);
-        text-align: center;
-    }
     .item6 img {
-        transform: translate(30px, 15px);
+        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
+    }
+    .item6 p {
+        transform: translateX(5px);
+        text-align: center;
     }
     .item7 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 6;
         grid-row-end: 7;
-        transform: translate(400px, 15px)
     }
     .item7 img {
+        transform: translate(400px);
         width: 500px;
         height: 300px;
     }
     .item7 p {
+        transform: translate(315px);
         text-align: center;
     }
     .footer {
