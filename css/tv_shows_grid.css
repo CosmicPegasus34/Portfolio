@@ -260,13 +260,16 @@
         grid-row-end: 3;
     }
     .item1 {
+        display: block;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: 4;
+        margin-right: 5%;
+        margin-left: 5%;
+        justify-content: center;
     }
     .item1 img {
-        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
     }
@@ -278,14 +281,14 @@
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 5;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .item2 img {
-        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
     }
     .item2 p {
-        transform: translateX(10px);
         text-align: center;
     }
     .item3 {
@@ -293,14 +296,14 @@
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .item3 img {
-        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
     }
     .item3 p {
-        transform: translate(10px);
         text-align: center;
     }
     .item4 {
@@ -308,14 +311,14 @@
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 6;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .item4 img {
-        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
     }
     .item4 p {
-        transform: translateX(5px);
         text-align: center;
     }
     .item5 {
@@ -325,12 +328,12 @@
         grid-row-end: 6;
     }
     .item5 img {
-        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .item5 p {
-        transform: translate(5px);
         text-align: center;
     }
     .item6 {
@@ -338,14 +341,14 @@
         grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 6;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .item6 img {
-        transform: translate(100px, 15px);
         width: 500px;
         height: 300px;
     }
     .item6 p {
-        transform: translateX(5px);
         text-align: center;
     }
     .item7 {
@@ -353,14 +356,14 @@
         grid-column-end: 3;
         grid-row-start: 6;
         grid-row-end: 7;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .item7 img {
-        transform: translate(400px);
         width: 500px;
         height: 300px;
     }
     .item7 p {
-        transform: translate(315px);
         text-align: center;
     }
     .footer {
