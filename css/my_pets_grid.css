@@ -227,6 +227,7 @@
         grid-row-end: 5;
     }
     .item3 img {
+        transform: translateX(150);
         width: 500px;
         height: 300px;
     }
@@ -240,6 +241,7 @@
         grid-row-end: 5;
     }
     .item4 img {
+        transform: translateX(150px);
         width: 500px;
         height: 300px;
     }
