@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @font-face {
+  font-family: 'Frozen';
+  src:
+    url('fonts/Frozito.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Portfolio';
   src:
     url('fonts/Courgette-Regular.ttf') format('truetype');
+}
+/*HTML*/
+html {
+  font-family: 'Frozen';
 }
 /* H1, H2, H3, H4 */
 h1, h2, h3, h4 {
@@ -17,7 +26,7 @@ body {
   background-attachment: fixed;
   background-repeat: repeat-x;
   background-image: url("../images/background.png");
-  font-family: 'Portfolio';
+  font-family: 'Frozen';
 }
 /* Paragraph */
 p {
@@ -95,6 +104,7 @@ li {
 
 /* Dropdown */
 .navbar {
+    font-family: 'Portfolio';
     overflow: hidden;
     background-color: #333;
   }

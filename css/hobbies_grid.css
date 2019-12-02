@@ -180,7 +180,7 @@
     }
     .footer {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 6;
         grid-row-end:  7;
         background-color: #ff6200;
@@ -196,7 +196,7 @@
     }
     .grid-container {
         display: grid;
-        grid-template-columns: 60px fit-content 60px;
+        grid-template-columns: 60px 1fr 1fr 60px;
         grid-template-rows: 100px 80px 1fr 1fr 1fr;
     }
     .box {
@@ -298,7 +298,7 @@
     }
     .footer {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 9;
         grid-row-start: 7;
         grid-row-end: 8;
         color: white;
