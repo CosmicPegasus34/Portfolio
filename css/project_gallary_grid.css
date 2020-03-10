@@ -192,7 +192,7 @@
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 3;
-        grid-row-end: 5;
+        grid-row-end: 4;
     }
     .item2 img {
         width: 500px;
@@ -206,13 +206,25 @@
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
-        transform: translate(400px, 15px)
     }
     .item3 img {
         width: 500px;
         height: 300px;
     }
     .item3 p {
+        text-align: center;
+    }
+    .item4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    .item4 img {
+        width: 500px;
+        height: 300px;
+    }
+    .item4 p {
         text-align: center;
     }
     .footer {
