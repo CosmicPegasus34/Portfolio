@@ -255,9 +255,9 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
-    .item1 img {
-        width: 500px;
-        height: 300px;
+    .item1 h3 {
+        position: relative;
+        left: 175px;
     }
     .item1 p {
         text-align: center;
@@ -268,9 +268,9 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
-    .item2 img {
-        width: 500px;
-        height: 300px;
+    .item2 h3 {
+        position: relative;
+        left: 175px;
     }
     .item2 p {
         text-align: center;
@@ -281,9 +281,9 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
-    .item3 img {
-        width: 500px;
-        height: 300px;
+    .item3 h3 {
+        position: relative;
+        left: 175px;
     }
     .item3 p {
         text-align: center;
@@ -294,9 +294,9 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
-    .item4 img {
-        width: 500px;
-        height: 300px;
+    .item4 h3 {
+        position: relative;
+        left: 175px;
     }
     .item4 p {
         text-align: center;
@@ -307,9 +307,9 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
-    .item5 img {
-        width: 500px;
-        height: 300px;
+    .item5 h3 {
+        position: relative;
+        left: 175px;
     }
     .item5 p {
         text-align: center;
@@ -320,9 +320,9 @@
         grid-row-start: 6;
         grid-row-end: 7;
     }
-    .item6 img {
-        width: 500px;
-        height: 300px;
+    .item6 h3 {
+        position: relative;
+        left: 175px;
     }
     .item6 p {
         text-align: center;
@@ -333,37 +333,24 @@
         grid-row-start: 6;
         grid-row-end: 7;
     }
-    .item7 img {
-        width: 500px;
-        height: 300px;
+    .item7 h3 {
+        position: relative;
+        left: 175px;
     }
     .item7 p {
         text-align: center;
     }
     .item8 {
-        grid-column-start: 3;
+        grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 7;
         grid-row-end: 8;
     }
-    .item8 img {
-        width: 500px;
-        height: 300px;
+    .item8 h3 {
+        position: relative;
+        left: 500px;
     }
     .item8 p {
-        text-align: center;
-    }
-    .item9 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 7;
-        grid-row-end: 8;
-    }
-    .item9 img {
-        width: 500px;
-        height: 300px;
-    }
-    .item9 p {
         text-align: center;
     }
     .footer {
