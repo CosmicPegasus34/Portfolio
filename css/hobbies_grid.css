@@ -113,7 +113,7 @@
     }
     .grid-container {
         display: grid;
-        grid-template-columns: 60px 1fr 1fr 1fr 60px;
+        grid-template-columns: 60px 1fr 1fr 60px;
         grid-template-rows: 60px 1fr 2fr 60px;
     }
     .box {
@@ -153,6 +153,8 @@
         grid-row-end: 4;
     }
     .item2 img {
+        position: relative;
+        left: 30px;
         width: 300px;
         height: 200px;
     }
@@ -179,6 +181,8 @@
         grid-row-end: 5;
     }
     .item4 img {
+        position: relative;
+        left: 30px;
         width: 300px;
         height: 200px;
     }
@@ -205,7 +209,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 60px 1fr 2fr 60px;
+        grid-template-rows: 60px 1fr 2fr 280px;
     }
     .box {
         display: block;
