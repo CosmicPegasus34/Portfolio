@@ -113,7 +113,7 @@
     }
     .grid-container {
         display: grid;
-        grid-template-columns: 60px 1fr 1fr 60px;
+        grid-template-columns: 60px 1fr 1fr -20px;
         grid-template-rows: 60px 1fr 2fr 60px;
     }
     .box {
@@ -242,7 +242,7 @@
         height: 300px;
     }
     .item1 p {
-        text-align: center;
+        text-align: left;
     }
     .item2 {
         grid-column-start: 3;
@@ -268,7 +268,7 @@
         height: 300px;
     }
     .item3 p {
-        text-align: center;
+        text-align: left;
     }
     .item4 {
         grid-column-start: 3;
@@ -284,7 +284,7 @@
         text-align: center;
     }
     .footer {
-        transform: translateY(400px);
+        transform: translateY(200px);
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 5;

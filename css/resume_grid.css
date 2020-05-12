@@ -144,7 +144,6 @@
         position: relative;
         left: 50px;
         text-align: center;
-    } text-align: center;
     }
     .footer {
         grid-column-start: 1;
@@ -166,7 +165,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 60px 1fr 1fr 220px;
+        grid-template-rows: 60px 1fr 1fr 1fr 1fr 1fr -20px;
     }
     .box {
         display: block;
@@ -180,6 +179,7 @@
         grid-row-end: 2;
     }
     .header {
+        height: 100px;
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 2;
@@ -200,6 +200,10 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
+    .item2 h3 {
+        position: relative;
+        left: 80px;
+    }
     .item2 p {
         text-align: center;
     }
@@ -208,6 +212,10 @@
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .item3 h3 {
+        position: relative;
+        left: 15px;
     }
     .item3 p {
         text-align: center;
@@ -218,6 +226,10 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
+    .item4 h3 {
+        position: relative;
+        left: 80px;
+    }
     .item4 p {
         text-align: center;
     }
@@ -226,6 +238,10 @@
         grid-column-end: 3;
         grid-row-start: 5;
         grid-row-end: 6;
+    }
+    .item5 h3 {
+        position: relative;
+        left: 80px;
     }
     .item5 p {
         text-align: center;
@@ -236,6 +252,10 @@
         grid-row-start: 5;
         grid-row-end: 6;
     }
+    .item6 h3 {
+        position: relative;
+        left: 80px;
+    }
     .item6 p {
         text-align: center;
     }
@@ -244,6 +264,10 @@
         grid-column-end: 3;
         grid-row-start: 6;
         grid-row-end: 7;
+    }
+    .item7 h3 {
+        position: relative;
+        left: 50px;
     }
     .item7 p {
         text-align: center;
@@ -254,17 +278,21 @@
         grid-row-start: 6;
         grid-row-end: 7;
     }
+    .item8 h3 {
+        position: relative;
+        left: 70px;
+    }
     .item8 p {
         text-align: center;
     }
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 7;
-        grid-row-end:  8;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        color: white;
         background-color: #ff6200;
         text-align: center;
-        height: 50px;
     }
 }
 /*Desktop*/
@@ -276,7 +304,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 60px 1fr 1fr 1fr 1fr 1fr 1fr 60px;
+        grid-template-rows: 60px 1fr 1fr 1fr 1fr 1fr 60px;
     }
     .box {
         display: block;
@@ -312,8 +340,8 @@
     .item2 {
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
     .item2 h3 {
         position: relative;
@@ -338,8 +366,8 @@
     .item4 {
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
     .item4 h3 {
         position: relative;
@@ -364,8 +392,8 @@
     .item6 {
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
     }
     .item6 h3 {
         position: relative;
@@ -388,14 +416,14 @@
         text-align: center;
     }
     .item8 {
-        grid-column-start: 2;
+        grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 7;
     }
     .item8 h3 {
         position: relative;
-        left: 580px;
+        left: 270px;
     }
     .item8 p {
         text-align: center;
@@ -403,8 +431,8 @@
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 8;
-        grid-row-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 8;
         color: white;
         background-color: #ff6200;
         text-align: center;

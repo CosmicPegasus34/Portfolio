@@ -273,8 +273,8 @@
     }
     .grid-container {
         display: grid;
-        grid-template-columns: 60px 1fr 1fr 60px;
-        grid-template-rows: 100px 1fr 4fr;
+        grid-template-columns: 60px 1fr 1fr -20px;
+        grid-template-rows: -2px 1fr 1fr 1fr 60px;
     }
     .box {
         display: block;
@@ -300,12 +300,12 @@
         grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: 4;
-        margin-right: 5%;
-        margin-left: 5%;
     }
     .item1 img {
         width: 500px;
         height: 300px;
+        margin-right: -15%;
+        margin-left: -15%;
     }
     .item1 p {
         text-align: center;
@@ -315,12 +315,12 @@
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
-        margin-right: 5%;
-        margin-left: 5%;
     }
     .item2 img {
         width: 500px;
         height: 300px;
+        margin-right: -10%;
+        margin-left: -10%;
     }
     .item2 p {
         text-align: center;
@@ -330,12 +330,12 @@
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
-        margin-right: 5%;
-        margin-left: 5%;
     }
     .item3 img {
         width: 500px;
         height: 300px;
+        margin-right: -15%;
+        margin-left: -15%;
     }
     .item3 p {
         text-align: center;
@@ -345,12 +345,12 @@
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 5;
-        margin-right: 5%;
-        margin-left: 5%;
     }
     .item4 img {
         width: 500px;
         height: 300px;
+        margin-right: -10%;
+        margin-left: -10%;
     }
     .item4 p {
         text-align: center;
@@ -364,8 +364,8 @@
     .item5 img {
         width: 500px;
         height: 300px;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: -15%;
+        margin-left: -15%;
     }
     .item5 p {
         text-align: center;
@@ -375,12 +375,12 @@
         grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 6;
-        margin-right: 5%;
-        margin-left: 5%;
     }
     .item6 img {
         width: 500px;
         height: 300px;
+        margin-right: -10%;
+        margin-left: -10%;
     }
     .item6 p {
         text-align: center;
@@ -397,9 +397,11 @@
         transform: translate(5%, -50%)
     }
     .item7 img {
-        transform: translate(5%);
         width: 500px;
         height: 300px;
+        margin-right: -10%;
+        margin-left: -10%;
+
     }
     .item7 p {
 
