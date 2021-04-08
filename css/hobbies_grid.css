@@ -27,73 +27,6 @@
         grid-row-start: 2;
         grid-row-end: 3;
     }
-    .item1 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .item1 img {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .item1 p {
-        text-align: center;
-    }
-    .item2 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item2 img {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .item2 p {
-        text-align: center;
-    }
-    .item3 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-    .item3 img {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .item3 p {
-        text-align: center;
-    }
-    .item4 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-    .item4 img {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .item4 p {
-        text-align: center;
-    }
-    .item5 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 7;
-        grid-row-end: 8;
-    }
-    .item5 img {
-        height: 170px;
-        width: 100px;
-        margin-left: 175px;
-        margin-right: 175px;
-    }
-    .item5 p {
-        text-align: center;
-    }
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -132,62 +65,6 @@
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-    }
-    .item1 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .item1 img {
-        width: 300px;
-        height: 200px;
-    }
-    .item1 p {
-        text-align: center;
-    }
-    .item2 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .item2 img {
-        position: relative;
-        left: 30px;
-        width: 300px;
-        height: 200px;
-    }
-    .item2 p {
-        text-align: center;
-    }
-    .item3 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item3 img {
-        width: 300px;
-        height: 200px;
-    }
-    .item3 p {
-        text-align: center;
-    }
-    .item4 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item4 img {
-        position: relative;
-        left: 30px;
-        width: 300px;
-        height: 200px;
-    }
-    .item4 p {
-        text-align: center;
     }
     .footer {
         transform: translateY(350px);
@@ -229,66 +106,12 @@
         grid-row-start: 2;
         grid-row-end: 3;
     }
-    .item1 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .item1 img {
-        margin-right: auto;
-        margin-left: auto;
-        width: 500px;
-        height: 300px;
-    }
-    .item1 p {
-        text-align: left;
-    }
-    .item2 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 5;
-    }
-    .item2 img {
-        width: 500px;
-        height: 300px;
-    }
-    .item2 p {
-        text-align: center;
-    }
-    .item3 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item3 img {
-        width: 500px;
-        height: 300px;
-    }
-    .item3 p {
-        text-align: left;
-    }
-    .item4 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .item4 img {
-        width: 500px;
-        height: 300px;
-    }
-    .item4 p {
-        text-align: center;
-    }
     .footer {
         transform: translateY(200px);
         grid-column-start: 1;
         grid-column-end: 6;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
         color: white;
         background-color: #ff6200;
         text-align: center;
